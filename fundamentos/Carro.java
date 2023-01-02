@@ -36,15 +36,15 @@ public class Carro {
         return modelo;
     }
 
-    void setCapacidade(int capacidadeTanque){
+    void setCapacidadeTanque(int capacidadeTanque){
         this.capacidadeTanque = capacidadeTanque;
     }
 
-    int getCapacidade(){
+    int getCapacidadeTanque(){
         return capacidadeTanque;
     }
     
-    double totalValor(double valorCombustivel){
+    double totalValorTanque(double valorCombustivel){
         return capacidadeTanque * valorCombustivel;
     }
 }
