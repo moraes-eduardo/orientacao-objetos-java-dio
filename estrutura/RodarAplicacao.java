@@ -1,4 +1,4 @@
-package fundamentos;
+package estrutura;
 
 public class RodarAplicacao {
     public static void main(String[] args) {
